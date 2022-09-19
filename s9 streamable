@@ -13,8 +13,8 @@ RunService.Heartbeat:Connect(function()
 end)
 
                                 local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/ghoulmain/s9floodhowyougetcrackedsped/main/niggafloodware", true))()
-                            Aiming.TeamCheck(false)
-                             
+                            Aiming.TeamCheck(false)Aiming.ShowFOV = true
+                             Aiming.FOV = 25
                             
                             local Workspace = game:GetService("Workspace")
                             local Players = game:GetService("Players")
